@@ -3,7 +3,7 @@
 }
 .d2{
     background-color: rgb(6, 147, 223);
-
+    justify-self: center;
 }
 .d3{
     background-color: rgb(97, 167, 134);
@@ -22,6 +22,8 @@
     width: 100%;
     background-color: lightgray;
     display: grid;
-    grid-template-columns: 1fr 100px 2fr;
-    grid-template-rows: 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
 }
